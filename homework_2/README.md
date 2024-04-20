@@ -36,8 +36,8 @@ Submit the assignment as a Jupyter Notebook file named `Hw2.1.ipynb`.
 9. Define the new size of the table using the `shape` method.
 10. Create a new table `python_data` containing only rows with specialists who listed Python as a programming language.
 11. Define the size of the `python_data` table using the `shape` method.
-12. Using the [groupby](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html) method, group by the "Position" column.
-13. Create a new DataFrame where, for data grouped by the "Position" column, you perform data aggregation using the [agg](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.agg.html) method and find the minimum and maximum values in the "Monthly Salary" column.
+12. Using the [groupby](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html) method, group by the "Role" column.
+13. Create a new DataFrame where, for data grouped by the "Role" column, you perform data aggregation using the [agg](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.agg.html) method and find the minimum and maximum values in the "Monthly Salary" column.
 14. Create a function `fill_avg_salary` that returns the average monthly salary. Use it in the [apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html) method to create a new column "avg".
 15. Create descriptive statistics using the `describe` method for the new column.
 16. Save the resulting table to a CSV file.

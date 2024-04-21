@@ -15,7 +15,7 @@ Do not be discouraged if you don't succeed at everything immediately. The work o
 6. Change the types of non-numeric columns to numeric. Hint: these are columns that contained the `"—"`.
 7. Calculate the proportion of empty places in each column (use `isnull` and `sum` methods).
 8. Remove data for the entire country, which is the last row of the table.
-9. Replace missing data in columns with average values of those columns (using `fillna`).
+9. Place missing data in columns with average values of those columns (using `fillna`).
 10. Obtain a list of regions where the birth rate in 2019 was higher than the average for Ukraine.
 11. Which region had the highest birth rate in 2014?
 12. Build a bar chart of the birth rate by regions for 2019.

@@ -52,8 +52,8 @@ In this part of the homework, we will delve deeper into the pandas library and l
 1. Read the csv file (use the `read_csv` function).
 2. Display the first five rows (use the `head` function).
 3. Display the dimensions of the dataset (use the `shape` attribute).
-4. Answer: How many books are data stored for in the dataset?
-5. There are 7 variables (columns) available for each of the books. Let's take a closer look at them:
+- **Question:** How many books are data stored for in the dataset?
+4. There are 7 variables (columns) available for each of the books. Let's take a closer look at them:
 
     - Name — name of the book
     - Author — author
@@ -63,7 +63,7 @@ In this part of the homework, we will delve deeper into the pandas library and l
     - Year — the year the book made it into the Top 50
     - Genre — genre
 
-6. To simplify your work, change the variable names slightly. As you can see, all names start with a capital letter, and one of them even includes a space. This is very undesirable and can be quite inconvenient. Change the case to lowercase, and replace the space with an underscore (snake_style). At the same time, get to know a useful dataframe attribute — columns (you can simply assign a list of new names to this attribute):
+To simplify your work, change the variable names slightly. As you can see, all names start with a capital letter, and one of them even includes a space. This is very undesirable and can be quite inconvenient. Change the case to lowercase, and replace the space with an underscore (snake_style). At the same time, get to know a useful dataframe attribute — columns (you can simply assign a list of new names to this attribute):
     ```python
     df.columns = ['name', 'author', 'user_rating', 'reviews', 'price', 'year', 'genre']
     ```
@@ -94,7 +94,7 @@ In this part of the homework, we will delve deeper into the pandas library and l
      - Which book has the most reviews? 
      - Which of the books from the Top 50 in 2015 is the most expensive (use an intermediate dataframe)? 
      - How many books of the Fiction genre were in the Top 50 in 2010 (use `&`)? 
-   - How many books with a rating of 4.9 were in the rankings in 2010 and 2011 (use `|` or the `isin` function)?
+     - How many books with a rating of 4.9 were in the rankings in 2010 and 2011 (use `|` or the `isin` function)?
 2. Finally, sort ascending by price all books that were in the ranking in 2015 and cost less than 8 dollars (use the `sort_values` function).
    - **Question:** Which book is last on the sorted list?
 
